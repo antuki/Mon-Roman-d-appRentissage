@@ -9,18 +9,141 @@ incremental: false
 embed-resources: true
 ---
 
-## Titre {background-color="#562457"}
+# Qui suis-je ? {background-color="#562457"}
 
-<!-- ::: panel-tabset -->
-<!-- ## Example 1 -->
+## Avant tout une RLady
 
-<!-- Content here for tabset 1 :) -->
+**Au sens littéral : une femme qui utilise R**
 
-<!-- ## Example 2 -->
+* Pour mon travail
+* En passe-temps
+     - Par plaisir d'**apprendre** à coder
+     - Parce que coder permet de **produire**
+     - Parce que coder permet d'exercer son esprit **créatif**
+ 
+## Une statisticienne publique
 
-<!-- More content here, for tabset 2 :) -->
-<!-- ::: -->
+- Formée en statistiques / **data science**, économie, **sciences sociales** et **informatique**
+  * à l'ENSAI (2012 - 2015)
+  * à l'ENSAE (2019 - 2021)
 
-<!-- https://github.com/beatrizmilz/quarto-rladies-theme -->
+- Travaillant (actuellement) dans le **secteur public**
+  * Depuis 2021 : Institut national de la statistique et des études économiques (Insee)
+  * 2017-2019 : Service Statistique du Ministère des Solidarités et de la Santé (Drees)
+  * 2015-2017 : Agence nationale de la cohésion des territoires (ANCT, CGET à l'époque)
+  
+# Mon parcours année par année {background-color="#562457"}
 
-<!-- pagedown::chrome_print("path-to-file.html") -->
+# 2015 
+
+![](images/cogugaison.png)
+
+## Rédaction de ma première étude statistique 
+
+**Paris-Lyon-Marseille** : quand j'ai découvert que les coquilles sont systématiques et quasi-inévitables
+
+---
+
+- Trouver des moyens de les éviter ? 
+  * Travail à plusieurs (dans l'idéal oui, en pratique jamais)
+  * Reproductibilité (mise en place plusieurs années plus tard)
+  * Assumer qu'une coquille n'est pas une faute professionnelle
+
+## Rencontre avec un passionné de l'open-data
+
+:::: {.columns}
+
+::: {.column width="40%"}
+**Aimer partager**
+
+- partager des données (_Open Data_)
+- parager son code (_Open Source_)
+- partager ses compétences (_papotter, alimenter une communauté_)
+:::
+
+::: {.column width="60%"}
+
+
+[![](images/matamix.png)](https://mtmx.github.io/visuels.html)
+
+:::
+
+::::
+
+
+
+# 2016 
+
+![](images/cogugaison.png)
+
+## Création de mon site web 
+
+::: {style="font-size: 70%;"}
+
+- D'abord blog `jekyll` (jekyll-now) avec deux répertoires distincts et utilisation des github pages (800 commits dont une 50aine les 24 et 25/12)
+- Puis avec `Hugo` interfacé  avec `blogdown`
+- J'ai pas encore eu le courage de le passer en `quarto` et en intégration continue celui-là 
+
+=> **Innover** c'est bien mais ça **fatigue parfois** de devoir se réinventer régulièrement
+
+:::
+
+
+[![](images/blog.png)](https://antuki.github.io/)
+
+
+# 2017 
+
+![](images/cogugaison.png)
+
+## Rédaction de mon premier package
+
+- Découvrir [github](https://github.com/antuki/)
+- L'utilité des fonctions
+- Ecrire un package [ce n'est pas si compliqué]()
+- Le package [`pkgdown`](https://pkgdown.r-lib.org/) pour créer de la documentation
+
+[![](images/cogugaison.png)](https://antuki.github.io/COGugaison/)
+
+# 2018 
+
+![](images/cogugaison.png)
+
+## Premiers _talk_ en public 
+
+- RLadies à Paris en mars
+- Rencontres R à Rennes en juillet
+- Ecole d'été en septembre à Florence
+    * Date à partir de laquelle j'ai décidé de dire adieu à l'**auto-censure**
+    
+[![](images/cogugaison.png)](https://antuki.github.io/presentations/)
+
+
+# 2019
+
+![](images/cogugaison.png)
+
+## `shiny`
+
+## Retour sur les bancs de l'école
+
+- encore plus de `shiny`, de dataviz, de sites webs
+
+# 2020
+
+![](images/cogugaison.png)
+
+# 2021
+
+![](images/cogugaison.png)
+
+# 2022
+
+![](images/cogugaison.png)
+
+# 2023
+
+![](images/cogugaison.png)
+
+
+# Merci pour votre attention {background-color="#562457"}
