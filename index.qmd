@@ -125,9 +125,53 @@ embed-resources: true
 
 ## `shiny`
 
+::::: {.columns}
+
+:::: {.column width="40%"}
+
+::: {style="font-size: 70%;"}
+{{< tweet antuki 1118428225934364672 >}}
+:::
+
+::::
+
+:::: {.column width="60%"}
+![](images/baro.jpg){fig-align="center" width=700}
+::::
+
+:::::
+
+
+
 ## Retour sur les bancs de l'école
 
-- encore plus de `shiny`, de dataviz, de sites webs
+<!-- https://github.com/sellorm/quarto-social-embeds -->
+
+::: {style="font-size: 100%;"}
+Encore plus de :
+
+- `shiny` ()
+- sites webs (mémoire de M2 de socio)
+- dataviz (ci-dessous)
+:::
+
+
+::::: {.columns}
+
+:::: {.column width="40%"}
+
+::: {style="font-size: 50%;"}
+{{< tweet antuki 1371395739310555138 >}}
+:::
+
+::::
+
+:::: {.column width="60%"}
+![](images/nutriscore.png){fig-align="center" width=500}
+::::
+
+:::::
+
 
 # 2020
 
@@ -146,4 +190,14 @@ embed-resources: true
 ![](images/cogugaison.png)
 
 
-# Merci pour votre attention {background-color="#562457"}
+# 
+
+![](images/avatar.gif){fig-align="center" width=250}
+
+::: {style="text-align: center;"}
+
+{{< fa brands twitter >}} <a href="http://twitter.com/antuki13" class="social">@antuki13</a>&nbsp;&nbsp;&nbsp;
+{{< fa brands github >}} <a href="http://github.com/antuki" class="social"> antuki</a>&nbsp;&nbsp;&nbsp;
+{{< fa bold >}} <a href="http://antuki.github.io" class="social"> antuki.github.io</a>
+
+:::
