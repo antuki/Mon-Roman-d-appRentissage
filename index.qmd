@@ -1,7 +1,8 @@
 ---
 title: "Mon Roman d'appRentissage"
 subtitle: "8 années de découverte de la science des données"
-author: "[Kim Antunez](https://twitter.com/antuki)"
+author: "[Kim Antunez](https://twitter.com/antuki) pour RLadies Paris"
+date: "2023-10-19"
 format: 
   rladies-revealjs:
     footer: "[R-Ladies](https://rladies.org/) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html). Code available on [GitHub](https://github.com/beatrizmilz/quarto-rladies-theme)."
@@ -24,13 +25,13 @@ embed-resources: true
 ## Une statisticienne publique
 
 - Formée en statistiques / **data science**, économie, **sciences sociales** et **informatique**
-  * à l'ENSAI (2012 - 2015)
-  * à l'ENSAE (2019 - 2021)
+  * à l'**ENSAI** (2012 - 2015)
+  * à l'**ENSAE** (2019 - 2021)
 
 - Travaillant (actuellement) dans le **secteur public**
-  * Depuis 2021 : Institut national de la statistique et des études économiques (Insee)
-  * 2017-2019 : Service Statistique du Ministère des Solidarités et de la Santé (Drees)
-  * 2015-2017 : Agence nationale de la cohésion des territoires (ANCT, CGET à l'époque)
+  * **Depuis 2021**: Institut national de la statistique et des études économiques (Insee)
+  * **2017-2019** : Service Statistique du Ministère des Solidarités et de la Santé (Drees)
+  * **2015-2017** : Agence nationale de la cohésion des territoires (ANCT, CGET à l'époque)
   
 # Mon parcours année par année {background-color="#562457"}
 
@@ -40,14 +41,18 @@ embed-resources: true
 
 ## Rédaction de ma première étude statistique 
 
-**Paris-Lyon-Marseille** : quand j'ai découvert que les coquilles sont systématiques et quasi-inévitables
+**Paris-Lyon-Marseille** dans les **codes Insee des communes** : quand j'ai découvert que les coquilles sont systématiques et quasi-inévitables
 
----
+<center><a href="https://www.insee.fr/fr/statistiques/5393826"><img src="images/plm.png" style="width:700px;"></a></center>
 
+::: {style="font-size: 50%;"}
 - Trouver des moyens de les éviter ? 
-  * Travail à plusieurs (dans l'idéal oui, en pratique jamais)
+  * Travail à plusieurs (dans l'idéal oui, en pratique rarement)
   * Reproductibilité (mise en place plusieurs années plus tard)
-  * Assumer qu'une coquille n'est pas une faute professionnelle
+  * (Faire) comprendre qu'une coquille n'est pas une faute professionnelle
+:::
+
+
 
 ## Rencontre avec un passionné de l'open-data
 
@@ -78,18 +83,17 @@ embed-resources: true
 
 ## Création de mon site web 
 
+<center><a href="https://antuki.github.io"><img src="images/blog.png" style="width:800px;"></a></center>
+
 ::: {style="font-size: 70%;"}
 
 - D'abord blog `jekyll` (jekyll-now) avec deux répertoires distincts et utilisation des github pages (800 commits dont une 50aine les 24 et 25/12)
 - Puis avec `Hugo` interfacé  avec `blogdown`
-- J'ai pas encore eu le courage de le passer en `quarto` et en intégration continue celui-là 
+- Je n'ai pas encore eu le courage de le passer en `quarto` et en intégration continue celui-là...
 
-=> **Innover** c'est bien mais ça **fatigue parfois** de devoir se réinventer régulièrement
+=> **Innover** c'est bien mais ça **fatigue parfois** de devoir se réinventer régulièrement. Et puis, ça crée parfois des **barrières entre les gens**.
 
 :::
-
-
-[![](images/blog.png)](https://antuki.github.io/)
 
 
 # 2017 
@@ -98,26 +102,82 @@ embed-resources: true
 
 ## Rédaction de mon premier package
 
-- Découvrir [github](https://github.com/antuki/)
-- L'utilité des fonctions
-- Ecrire un package [ce n'est pas si compliqué]()
-- Le package [`pkgdown`](https://pkgdown.r-lib.org/) pour créer de la documentation
+<center><a href="https://antuki.github.io/COGugaison/"><img src="images/cogugaison.png" style="width:800px;"></a></center>
 
-[![](images/cogugaison.png)](https://antuki.github.io/COGugaison/)
+- Découvrir [github](https://github.com/antuki/)
+- Ecrire un package [ce n'est pas si compliqué](https://thinkr.fr/creer-package-r-quelques-minutes/). 
+- L'utilité des fonctions.
+- Le package [`pkgdown`](https://pkgdown.r-lib.org/) pour créer de la documentation
 
 # 2018 
 
 ![](images/cogugaison.png)
 
-## Premiers _talk_ en public 
+## Premiers _talks_ en public 
 
-- RLadies à Paris en mars
-- Rencontres R à Rennes en juillet
-- Ecole d'été en septembre à Florence
+
+::::: {.columns}
+
+:::: {.column width="40%"}
+
+- **RLadies** à Paris en mars
+- **Rencontres R** à Rennes en juillet
+- **Ecole d'été** en septembre à Florence
     * Date à partir de laquelle j'ai décidé de dire adieu à l'**auto-censure**
-    
-[![](images/cogugaison.png)](https://antuki.github.io/presentations/)
+::::
 
+:::: {.column width="60%"}
+
+::: {style="font-size: 70%;"}
+{{< tweet antuki 1044982153057116161 >}}
+:::
+
+![](images/florence.png){fig-align="center" width=400}
+
+::::
+
+:::::
+
+
+## Rencontre avec la communauté R
+
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+
+::: {style="font-size: 50%;"}
+{{< tweet antuki 971091308541632512 >}}
+:::
+
+::::
+
+:::: {.column width="50%"}
+
+::: {style="font-size: 50%;"}
+{{< tweet antuki 1015149118463856640 >}}
+:::
+
+::::
+
+:::::
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+
+![](images/rladies.png){fig-align="center" width=400}
+
+::::
+
+:::: {.column width="50%"}
+
+![](images/rr.png){fig-align="center" width=400}
+
+::::
+
+
+:::::
 
 # 2019
 
@@ -129,7 +189,7 @@ embed-resources: true
 
 :::: {.column width="40%"}
 
-::: {style="font-size: 70%;"}
+::: {style="font-size: 50%;"}
 {{< tweet antuki 1118428225934364672 >}}
 :::
 
@@ -141,17 +201,22 @@ embed-resources: true
 
 :::::
 
+::: {style="font-size: 80%;"}
 
+- Gare aux perfectionnistes : savoir dire stop ! (on peut améliorer le rendu et l'ergonomie à l'infini)
+- Pas si simple à **maintenir**, et encore moins simple pour des **passations** vers des personnes qui n'ont pas le même bagage technique.
+
+:::
 
 ## Retour sur les bancs de l'école
 
 <!-- https://github.com/sellorm/quarto-social-embeds -->
 
 ::: {style="font-size: 100%;"}
-Encore plus de :
+Encore plus de [codes](https://github.com/ARKEnsae/) :
 
-- `shiny` ()
-- sites webs (mémoire de M2 de socio)
+- `shiny` ([projet mastermind](https://antuki.shinyapps.io/Mastermind/))
+- sites webs ([mémoire de M2 de sociologie](https://antuki.github.io/EspaceSocial_Pauvrete/rapport/_book/index.html))
 - dataviz (ci-dessous)
 :::
 
@@ -177,18 +242,76 @@ Encore plus de :
 
 ![](images/cogugaison.png)
 
+
+## A la fois étudiante et enseignante
+
+
+<center><a href="https://antuki-teaching.netlify.app/"><img src="images/teaching.png" style="width:800px;"></a></center>
+
+- Université de Lille à distance (Covid)
+- Cours/TD d'introduction aux méthodes quantitatives avec R à des L3 en sciences politiques
+
+
 # 2021
 
 ![](images/cogugaison.png)
+
+## Heureux événement
+
+- Quand les compétences professionnelles s'invitent dans la vie privée. 
+- inspiration : [`ThinkR-open/wedding`](https://github.com/ThinkR-open/wedding)
+
+![](images/mariage.png){fig-align="center" width=400}
+
+## En route vers Python
+
+
+<center><a href="https://pythonds.linogaliana.fr/"><img src="images/python.png" style="width:600px;"></a></center>
+
+- Chargée de TD Python à l'ENSAE
+- site du professeur **entièrement reproductible**, source d'**inspiration**. 
+
 
 # 2022
 
 ![](images/cogugaison.png)
 
+## Le spatial, ça vous gagne
+
+- Analyse urbaine à l'Insee
+- Cours de cartographie en interne, et ailleurs (Tuto [RR2023](github.com/antuki/RR2023_tuto_statspatiale))
+- maintenance du package R [`btb`](https://github.com/InseeFr/btb/), [formations](https://github.com/InseeFrLab/formation-r-lissage-spatial), logo !
+
+![](images/btb.png){fig-align="center" width=400}
+
+## L'intégration continue
+
+- Un pas de plus vers la reproductibilité
+
+![](images/ci.png){fig-align="center" width=800}
+
+
 # 2023
 
 ![](images/cogugaison.png)
 
+## Introduction à la datascience avec R
+
+
+<center><a href="https://dswithr.netlify.app/"><img src="images/dswithr.png" style="width:900px;"></a></center>
+
+::: {style="font-size: 80%;"}
+- `quarto` et ses _listings_
+- `github pages`
+- intégration continue
+::: 
+
+
+
+
+# Et vous ? {background-color="#562457"}
+
+Comment vous êtes-vous construits grâce aux compétences apprises et acquises en lien avec vos études et votre métier ?
 
 # 
 
