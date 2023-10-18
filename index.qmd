@@ -44,17 +44,28 @@ embed-resources: true
 
 ## Rédaction de ma première étude statistique 
 
-**Paris-Lyon-Marseille** dans les **codes Insee des communes** : quand j'ai découvert que les coquilles sont systématiques et quasi-inévitables
 
-<center><a href="https://www.insee.fr/fr/statistiques/5393826"><img src="images/plm.png" style="width:700px;"></a></center>
+::::: {.columns}
 
-::: {style="font-size: 50%;"}
+:::: {.column width="40%"}
+_Paris-Lyon-Marseille_ dans les codes Insee des communes : quand j'ai découvert que les **coquilles** sont **systématiques** et quasi-inévitables
+
+
+::::
+
+:::: {.column width="60%"}
+<center><a href="https://www.insee.fr/fr/statistiques/5393826"><img src="images/plm.png" style="width:650px;"></a></center>
+::::
+
+:::::
+
+
+::: {style="font-size: 75%;"}
 - Trouver des moyens de les éviter ? 
-  * Travail à plusieurs (dans l'idéal oui, en pratique rarement)
-  * Reproductibilité (mise en place plusieurs années plus tard)
-  * (Faire) comprendre qu'une coquille n'est pas une faute professionnelle
+  * **Travail à plusieurs** (dans l'idéal oui, en pratique rarement)
+  * **Reproductibilité** (mise en place plusieurs années plus tard)
+  * (Faire) comprendre qu'une coquille n'est **pas une faute professionnelle**
 :::
-
 
 
 ## Rencontre avec un passionné de l'open-data
@@ -64,9 +75,9 @@ embed-resources: true
 ::: {.column width="40%"}
 **Aimer partager**
 
-- partager des données (_Open Data_)
-- partager son code (_Open Source_)
-- partager ses compétences (_papotter, alimenter une communauté_)
+- partager des **données** (_Open Data_)
+- partager son **code** (_Open Source_)
+- partager ses **compétences** (_papotter, alimenter une communauté_)
 :::
 
 ::: {.column width="60%"}
@@ -94,7 +105,7 @@ embed-resources: true
 - Puis avec `Hugo` interfacé  avec `blogdown`
 - Je n'ai pas encore eu le courage de le passer en `quarto` et en intégration continue celui-là...
 
-=> **Innover** c'est bien mais ça **fatigue parfois** de devoir se réinventer régulièrement. Et puis, ça crée parfois des **barrières entre les gens**.
+=> **Innover** c'est bien... Mais ça **fatigue parfois** de devoir se réinventer régulièrement. 
 
 :::
 
@@ -108,12 +119,13 @@ embed-resources: true
 
 ## Rédaction de mon premier package
 
-<center><a href="https://antuki.github.io/COGugaison/"><img src="images/cogugaison.png" style="width:800px;"></a></center>
+<center><a href="https://antuki.github.io/COGugaison/"><img src="images/cogugaison.png" style="width:700px;"></a></center>
 
 - Découvrir [github](https://github.com/antuki/)
 - Ecrire un package [ce n'est pas si compliqué](https://thinkr.fr/creer-package-r-quelques-minutes/). 
 - L'utilité des fonctions.
 - Le package [`pkgdown`](https://pkgdown.r-lib.org/) pour créer de la documentation
+- Et le package [`CARTElette`](https://antuki.github.io/CARTElette) quelques années plus tard 
 
 ::: {style="text-align: center;"}
 # 2018
@@ -201,7 +213,7 @@ embed-resources: true
 
 ::::: {.columns}
 
-:::: {.column width="40%"}
+:::: {.column width="60%"}
 
 ::: {style="font-size: 50%;"}
 {{< tweet antuki 1118428225934364672 >}}
@@ -209,18 +221,24 @@ embed-resources: true
 
 ::::
 
-::: {style="font-size: 80%;"}
+:::: {.column width="40%"}
 
-- Gare aux perfectionnistes : savoir dire stop ! (on peut améliorer le rendu et l'ergonomie à l'infini)
+::: {style="font-size: 100%;"}
+- **Gare aux perfectionnistes** : savoir dire stop ! (on peut améliorer le rendu et l'ergonomie à l'infini)
 - Pas si simple à **maintenir**, et encore moins simple pour des **passations** vers des personnes qui n'ont pas le même bagage technique.
-
 :::
+
+::::
+
+:::::
+
+
+
 
 <!-- :::: {.column width="60%"} -->
 <!-- ![](images/baro.jpg){fig-align="center" width=700} -->
 <!-- :::: -->
 
-:::::
 
 
 ## Retour sur les bancs de l'école
@@ -247,7 +265,7 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 
 - `shiny` ([projet mastermind](https://antuki.shinyapps.io/Mastermind/))
 - sites webs ([mémoire de M2 de sociologie](https://antuki.github.io/EspaceSocial_Pauvrete/rapport/_book/index.html))
-- dataviz (ci-dessous)
+- dataviz (cf. tweet)
 :::
 ::::
 
@@ -276,7 +294,7 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 
 ## Préparation d'un heureux événement
 
-- Quand les compétences professionnelles s'invitent dans la vie privée. 
+- Quand les compétences professionnelles s'invitent dans la **vie privée**. 
 - inspiration : [`ThinkR-open/wedding`](https://github.com/ThinkR-open/wedding)
 
 ![](images/mariage.png){fig-align="center" width=400}
@@ -284,7 +302,7 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 ## En route vers Python
 
 
-<center><a href="https://pythonds.linogaliana.fr/"><img src="images/python.png" style="width:400px;"></a></center>
+<center><a href="https://pythonds.linogaliana.fr/"><img src="images/python.png" style="width:500px;"></a></center>
 
 - Chargée de TD Python à l'ENSAE
 - site du professeur **entièrement reproductible**, source d'**inspiration**. 
@@ -298,15 +316,16 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 
 ## Le spatial, ça vous gagne
 
-- Analyse urbaine à l'Insee
-- Cours de cartographie en interne, et ailleurs (Tuto [RR2023](github.com/antuki/RR2023_tuto_statspatiale))
+- **Analyse urbaine** à l'Insee avec une petite **équipe**
+  * arbitrage **innovation** versus **temps** + **maintenabilité**
+- **Formations** de **cartographie** et d'**analyse spatiale** en interne, et ailleurs (Tuto [RR2023](github.com/antuki/RR2023_tuto_statspatiale))
 - maintenance du package R [`btb`](https://github.com/InseeFr/btb/), [formations](https://github.com/InseeFrLab/formation-r-lissage-spatial), logo !
 
 ![](images/btb.png){fig-align="center" width=400}
 
 ## L'intégration continue
 
-- Un pas de plus vers la reproductibilité
+- Un pas de plus vers la **reproductibilité**
 
 ![](images/ci.png){fig-align="center" width=800}
 
@@ -334,7 +353,7 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 
 # Et vous ? {background-color="#562457"}
 
-Comment vous êtes-vous construits grâce aux compétences apprises et acquises en lien avec vos études et votre métier ?
+Quelle est votre histoire avec R ?
 
 # 
 
