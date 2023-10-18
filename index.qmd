@@ -11,7 +11,29 @@ embed-resources: true
   
 ---
 
+# À propos {background-color="#562457"}
+
+::: {style="font-size: 60%; font-style: italic"}
+Le **roman d'apprentissage**, ou initiatique, est un genre littéraire ayant pour thème le **cheminement** d'un héros, souvent **jeune**, qui atteint progressivement l'idéal de l'humain accompli, faisant l'expérience des **grands événements de l'existence** : l'amour, l'altérité, la frustration, etc.
+
+L’**histoire** que je vais vous conter est la **mienne** : les huit années passées à me former progressivement à la science des données : l’**amour de R**, son altérité = **sa communauté**, la frustration de ne pas voir tout le monde s’émerveiller face à l’évolution des logiciels statistiques, pourtant si excitante.
+
+Je vous décrirai les **déclics** issus de mes **projets professionnels et personnels**, et comment ils ont fait évoluer le regard que j’ai sur mon métier et ses outils :
+
+- des **packages**... autour du lissage spatial et de l'évolution de la géographie communale.
+- des **formations**... à l’analyse spatiale, à la cartographie, d’introduction à R.
+- des **applications `shiny`**... de visualisation de données d’enquêtes, de simulations de parties de mastermind, d’invitation à un mariage.
+- et, avant tout, des **rencontres** ! Hâte de faire la vôtre  !
+:::
+
 # Qui suis-je ? {background-color="#562457"}
+
+::: {style="font-size: 60%; font-style: italic"}
+
+Investie **depuis 8 ans** dans le **logiciel R** et sa **communauté**, je m'intéresse en particulier à l'**analyse spatiale**, à la **datavisualisation** et plus largement aux **méthodes quantitatives appliquées aux sciences sociales**.
+
+Convaincue par l’**open-data**, l’**open-source**, et l'**automatisation de processus statistiques** utiles à **différents types d'acteurs**, j'ai réalisé des projets en ce sens, tant **professionnels** que **personnels**.
+:::
 
 ## Avant tout une RLady
 
@@ -102,7 +124,7 @@ _Paris-Lyon-Marseille_ dans les codes Insee des communes : quand j'ai découvert
 ::: {style="font-size: 70%;"}
 
 - D'abord blog `jekyll` (jekyll-now) avec deux répertoires distincts et utilisation des github pages (800 commits dont une 50aine les 24 et 25/12)
-- Puis avec `Hugo` interfacé  avec `blogdown`
+- Puis avec `Hugo` interfacé  avec `blogdown` (cc [@rlesur](https://github.com/RLesur))
 - Je n'ai pas encore eu le courage de le passer en `quarto` et en intégration continue celui-là...
 
 => **Innover** c'est bien... Mais ça **fatigue parfois** de devoir se réinventer régulièrement. 
@@ -144,7 +166,7 @@ _Paris-Lyon-Marseille_ dans les codes Insee des communes : quand j'ai découvert
 
 - **RLadies** à Paris en mars
 - **Rencontres R** à Rennes en juillet
-- **Ecole d'été** en septembre à Florence
+- **Ecole d'été** en septembre à Florence (cc [@comeetie](https://www.comeetie.fr/) et [@rgeomatic](https://rgeomatic.hypotheses.org/))
     * Date à partir de laquelle j'ai décidé de dire adieu à l'**auto-censure**
 ::::
 
