@@ -1,13 +1,14 @@
 ---
 title: "Mon Roman d'appRentissage"
 subtitle: "8 années de découverte de la science des données"
-author: "[Kim Antunez](https://twitter.com/antuki) pour RLadies Paris"
+author: "[Kim Antunez](https://twitter.com/antuki)</br></br>**RLadies Paris**"
+lang: fr
 date: "2023-10-19"
-format: 
-  rladies-revealjs:
-    footer: "[R-Ladies](https://rladies.org/) theme for [Quarto Presentations](https://quarto.org/docs/presentations/revealjs/index.html). Code available on [GitHub](https://github.com/beatrizmilz/quarto-rladies-theme)."
+date-format: long
+format: rladies-revealjs
 incremental: false
 embed-resources: true
+  
 ---
 
 # Qui suis-je ? {background-color="#562457"}
@@ -35,9 +36,11 @@ embed-resources: true
   
 # Mon parcours année par année {background-color="#562457"}
 
+::: {style="text-align: center;"}
 # 2015 
 
-![](images/cogugaison.png)
+![<small>Image créée avec DALL-E 3</small>](images/lady_2015.jpeg){fig-align="center" width=600}
+:::
 
 ## Rédaction de ma première étude statistique 
 
@@ -62,7 +65,7 @@ embed-resources: true
 **Aimer partager**
 
 - partager des données (_Open Data_)
-- parager son code (_Open Source_)
+- partager son code (_Open Source_)
 - partager ses compétences (_papotter, alimenter une communauté_)
 :::
 
@@ -75,11 +78,11 @@ embed-resources: true
 
 ::::
 
-
-
+::: {style="text-align: center;"}
 # 2016 
 
-![](images/cogugaison.png)
+![<small>Image créée avec DALL-E 3</small>](images/lady_2016.jpeg){fig-align="center" width=600}
+:::
 
 ## Création de mon site web 
 
@@ -96,9 +99,12 @@ embed-resources: true
 :::
 
 
-# 2017 
 
-![](images/cogugaison.png)
+::: {style="text-align: center;"}
+# 2017
+
+![<small>Image créée avec DALL-E 3</small>](images/lady_2017.jpeg){fig-align="center" width=600}
+:::
 
 ## Rédaction de mon premier package
 
@@ -109,9 +115,13 @@ embed-resources: true
 - L'utilité des fonctions.
 - Le package [`pkgdown`](https://pkgdown.r-lib.org/) pour créer de la documentation
 
-# 2018 
+::: {style="text-align: center;"}
+# 2018
 
-![](images/cogugaison.png)
+![<small>Image créée avec DALL-E 3</small>](images/lady_2018.jpeg){fig-align="center" width=600}
+:::
+
+
 
 ## Premiers _talks_ en public 
 
@@ -132,7 +142,7 @@ embed-resources: true
 {{< tweet antuki 1044982153057116161 >}}
 :::
 
-![](images/florence.png){fig-align="center" width=400}
+<!-- ![](images/florence.png){fig-align="center" width=400} -->
 
 ::::
 
@@ -162,26 +172,30 @@ embed-resources: true
 
 :::::
 
-::::: {.columns}
+<!-- ::::: {.columns} -->
 
-:::: {.column width="50%"}
+<!-- :::: {.column width="50%"} -->
 
-![](images/rladies.png){fig-align="center" width=400}
+<!-- ![](images/rladies.png){fig-align="center" width=400} -->
 
-::::
+<!-- :::: -->
 
-:::: {.column width="50%"}
+<!-- :::: {.column width="50%"} -->
 
-![](images/rr.png){fig-align="center" width=400}
+<!-- ![](images/rr.png){fig-align="center" width=400} -->
 
-::::
+<!-- :::: -->
 
 
-:::::
+<!-- ::::: -->
 
+::: {style="text-align: center;"}
 # 2019
 
-![](images/cogugaison.png)
+![<small>Image créée avec DALL-E 3</small>](images/lady_2019.jpeg){fig-align="center" width=600}
+:::
+
+
 
 ## `shiny`
 
@@ -195,12 +209,6 @@ embed-resources: true
 
 ::::
 
-:::: {.column width="60%"}
-![](images/baro.jpg){fig-align="center" width=700}
-::::
-
-:::::
-
 ::: {style="font-size: 80%;"}
 
 - Gare aux perfectionnistes : savoir dire stop ! (on peut améliorer le rendu et l'ergonomie à l'infini)
@@ -208,22 +216,23 @@ embed-resources: true
 
 :::
 
+<!-- :::: {.column width="60%"} -->
+<!-- ![](images/baro.jpg){fig-align="center" width=700} -->
+<!-- :::: -->
+
+:::::
+
+
 ## Retour sur les bancs de l'école
 
 <!-- https://github.com/sellorm/quarto-social-embeds -->
 
-::: {style="font-size: 100%;"}
-Encore plus de [codes](https://github.com/ARKEnsae/) :
 
-- `shiny` ([projet mastermind](https://antuki.shinyapps.io/Mastermind/))
-- sites webs ([mémoire de M2 de sociologie](https://antuki.github.io/EspaceSocial_Pauvrete/rapport/_book/index.html))
-- dataviz (ci-dessous)
-:::
 
 
 ::::: {.columns}
 
-:::: {.column width="40%"}
+:::: {.column width="60%"}
 
 ::: {style="font-size: 50%;"}
 {{< tweet antuki 1371395739310555138 >}}
@@ -231,32 +240,41 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 
 ::::
 
-:::: {.column width="60%"}
-![](images/nutriscore.png){fig-align="center" width=500}
+:::: {.column width="40%"}
+<!-- ![](images/nutriscore.png){fig-align="center" width=500} -->
+::: {style="font-size: 100%;"}
+Encore plus de [codes](https://github.com/ARKEnsae/) :
+
+- `shiny` ([projet mastermind](https://antuki.shinyapps.io/Mastermind/))
+- sites webs ([mémoire de M2 de sociologie](https://antuki.github.io/EspaceSocial_Pauvrete/rapport/_book/index.html))
+- dataviz (ci-dessous)
+:::
 ::::
 
 :::::
 
-
+::: {style="text-align: center;"}
 # 2020
 
-![](images/cogugaison.png)
-
+![<small>Image créée avec DALL-E 3</small>](images/lady_2020.jpeg){fig-align="center" width=600}
+:::
 
 ## A la fois étudiante et enseignante
 
-
-<center><a href="https://antuki-teaching.netlify.app/"><img src="images/teaching.png" style="width:800px;"></a></center>
+<center><a href="https://antuki-teaching.netlify.app/"><img src="images/teaching.png" style="width:700px;"></a></center>
 
 - Université de Lille à distance (Covid)
 - Cours/TD d'introduction aux méthodes quantitatives avec R à des L3 en sciences politiques
 
-
+::: {style="text-align: center;"}
 # 2021
 
-![](images/cogugaison.png)
+![<small>Image créée avec DALL-E 3</small>](images/lady_2021.jpeg){fig-align="center" width=600}
+:::
 
-## Heureux événement
+
+
+## Préparation d'un heureux événement
 
 - Quand les compétences professionnelles s'invitent dans la vie privée. 
 - inspiration : [`ThinkR-open/wedding`](https://github.com/ThinkR-open/wedding)
@@ -266,15 +284,17 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 ## En route vers Python
 
 
-<center><a href="https://pythonds.linogaliana.fr/"><img src="images/python.png" style="width:600px;"></a></center>
+<center><a href="https://pythonds.linogaliana.fr/"><img src="images/python.png" style="width:400px;"></a></center>
 
 - Chargée de TD Python à l'ENSAE
 - site du professeur **entièrement reproductible**, source d'**inspiration**. 
 
 
+::: {style="text-align: center;"}
 # 2022
 
-![](images/cogugaison.png)
+![<small>Image créée avec DALL-E 3</small>](images/lady_2022.jpeg){fig-align="center" width=600}
+:::
 
 ## Le spatial, ça vous gagne
 
@@ -290,10 +310,13 @@ Encore plus de [codes](https://github.com/ARKEnsae/) :
 
 ![](images/ci.png){fig-align="center" width=800}
 
-
+::: {style="text-align: center;"}
 # 2023
 
-![](images/cogugaison.png)
+![<small>Image créée avec DALL-E 3</small>](images/lady_2023.jpeg){fig-align="center" width=600}
+:::
+
+
 
 ## Introduction à la datascience avec R
 
@@ -315,12 +338,11 @@ Comment vous êtes-vous construits grâce aux compétences apprises et acquises 
 
 # 
 
-![](images/avatar.gif){fig-align="center" width=250}
+<center>
 
-::: {style="text-align: center;"}
+<img src="images/avatar.gif" style="width:300px;">
 
 {{< fa brands twitter >}} <a href="http://twitter.com/antuki13" class="social">@antuki13</a>&nbsp;&nbsp;&nbsp;
 {{< fa brands github >}} <a href="http://github.com/antuki" class="social"> antuki</a>&nbsp;&nbsp;&nbsp;
 {{< fa bold >}} <a href="http://antuki.github.io" class="social"> antuki.github.io</a>
-
-:::
+</center>

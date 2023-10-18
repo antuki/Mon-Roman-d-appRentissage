@@ -68,7 +68,6 @@ section.has-dark-background a, section.has-dark-background a:hover {
     color: #fee4ff;
 }
 
-
 .slide-logo {
   display: block !important;
   position: fixed !important;
@@ -78,6 +77,7 @@ section.has-dark-background a, section.has-dark-background a:hover {
   height: 100% !important;
   width: auto !important;
   color: $body-color !important;
+  z-index: 0;
 }
 
 .slide-number, .reveal.has-logo .slide-number {
