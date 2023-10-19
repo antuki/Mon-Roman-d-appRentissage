@@ -70,7 +70,9 @@ Convaincue par l’**open-data**, l’**open-source**, et l'**automatisation de 
 ::::: {.columns}
 
 :::: {.column width="40%"}
-_Paris-Lyon-Marseille_ dans les codes Insee des communes : quand j'ai découvert que les **coquilles** sont **systématiques** et quasi-inévitables
+_Paris-Lyon-Marseille_ : code commune ou arrondissement municipal ? 
+
+➡️ Quand j'ai découvert que les **coquilles** sont **très présentes** et **difficilement évitables**
 
 
 ::::
@@ -85,7 +87,7 @@ _Paris-Lyon-Marseille_ dans les codes Insee des communes : quand j'ai découvert
 ::: {style="font-size: 75%;"}
 - Trouver des moyens de les éviter ? 
   * **Travail à plusieurs** (dans l'idéal oui, en pratique rarement)
-  * **Reproductibilité** (mise en place plusieurs années plus tard)
+  * **Reproductibilité** (mise en place chez moi plusieurs années plus tard)
   * (Faire) comprendre qu'une coquille n'est **pas une faute professionnelle**
 :::
 
@@ -185,12 +187,15 @@ _Paris-Lyon-Marseille_ dans les codes Insee des communes : quand j'ai découvert
 
 ## Rencontre avec la communauté R
 
+<center>
+[Rejoignez](https://join.slack.com/t/r-grrr/shared_invite/zt-25aj4e82e-FwTVQzPmXrsnzn9pozw7IA) la chaîne slack `gRrr` !
+</center>
 
 ::::: {.columns}
 
 :::: {.column width="50%"}
 
-::: {style="font-size: 50%;"}
+::: {style="font-size: 45%;"}
 {{< tweet antuki 971091308541632512 >}}
 :::
 
@@ -198,7 +203,7 @@ _Paris-Lyon-Marseille_ dans les codes Insee des communes : quand j'ai découvert
 
 :::: {.column width="50%"}
 
-::: {style="font-size: 50%;"}
+::: {style="font-size: 45%;"}
 {{< tweet antuki 1015149118463856640 >}}
 :::
 
