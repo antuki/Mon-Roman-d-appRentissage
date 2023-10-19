@@ -392,3 +392,5 @@ Quelle est votre histoire avec R ?
 {{< fa brands github >}} <a href="http://github.com/antuki" class="social"> antuki</a>&nbsp;&nbsp;&nbsp;
 {{< fa bold >}} <a href="http://antuki.github.io" class="social"> antuki.github.io</a>
 </center>
+
+<!-- pagedown::chrome_print("index.html") -->
